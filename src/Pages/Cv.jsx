@@ -16,7 +16,7 @@ const Cv = () => {
             download="Cv Florian Poteau"
             target="_blank"
             rel="noopener noreferrer">
-            <Button>Télécharger en pdf</Button>
+            <Button className='mb-3'>Télécharger en pdf</Button>
             </a>
             </div>
             <Footer />
