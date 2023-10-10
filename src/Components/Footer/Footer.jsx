@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Footer = () => {
     const footerStyle = {
@@ -7,8 +7,15 @@ const Footer = () => {
         color: "white",
         textAlign: "center",
         padding: "10px 0",
-        marginTop: "20px",
+        position: 'fixed',
+        bottom: '0',
     };
+
+    useEffect(() => {
+        const body = document.body;
+        const footer = document.querySelector('footer');
+        body.style.paddingBottom = `${footer.clientHeight}px`;
+    }, []);
 
     return (
         <footer style={footerStyle}>
