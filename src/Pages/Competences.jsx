@@ -27,7 +27,7 @@ const Competences = () => {
         <>
             <div>
                 <div className="container mt-5">
-                    <div className="row">
+                    <div className="d-md-flex">
                         <div className="col">
                             <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <a
@@ -57,7 +57,7 @@ const Competences = () => {
                             </div>
                         </div>
 
-                        <div className="col-9">
+                        <div className="col-12 col-lg-9">
                             <div className="tab-content" id="v-pills-tabContent">
                                 <div className={`tab-pane fade ${activeTab === 'langages' ? 'show active' : ''}`} id="v-pills-langages" role="tabpanel" aria-labelledby="v-pills-langages-tab">
                                     <h4 className='text-center mb-5'>Les langages, frameworks et outils que j'ai utilisés:</h4>
@@ -71,6 +71,7 @@ const Competences = () => {
                                                 <img src={image5} className='mx-2' alt="react" />
                                             </Container>
                                         </div>
+                                        <br />
                                         <div className='row mb-5'>
                                             <Container className='text-center'>
                                                 <img src={image6} className='mx-2' alt="flutter" />
@@ -80,6 +81,7 @@ const Competences = () => {
                                                 <img src={image10} className='mx-2' alt="apiplatform" />
                                             </Container>
                                         </div>
+                                        <br />
                                         <div className='row mb-5'>
                                             <Container className='text-center'>
                                                 <img src={image11} className='mx-2' alt="Mysql" />
@@ -95,9 +97,9 @@ const Competences = () => {
                                 </div>
 
                                 {/* Savoir faire */}
-                                <div className={`tab-pane fade ${activeTab === 'savoirfaire' ? 'show active' : ''}`} id="v-pills-savoirfaire" role="tabpanel" aria-labelledby="v-pills-savoirfaire-tab">
+                                <div style={{marginLeft: '3%', marginRight: "3%"}} className={`tab-pane fade ${activeTab === 'savoirfaire' ? 'show active' : ''}`} id="v-pills-savoirfaire" role="tabpanel" aria-labelledby="v-pills-savoirfaire-tab">
 
-                                    <h3 className='mb-5'>Savoirs faire</h3>
+                                    <h3 className='mb-5 mt-3' style={{marginLeft: "4%", marginRight: '4%'}}>Savoirs faire</h3>
                                     <h4>Front-end</h4>
                                     <p className='mb-5'>J'ai appris et je sais faire du front avec du html, du css, du javascript, du react du php ou du flutter. je sais développer des sites web et des applications mobile.</p>
 

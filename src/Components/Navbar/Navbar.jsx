@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 const NavbarPortfolio = () => {
     return (
         <>
-            <Navbar expand="lg" className="bg-primary">
+            <Navbar expand="lg" className="bg-success bg-gradient">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

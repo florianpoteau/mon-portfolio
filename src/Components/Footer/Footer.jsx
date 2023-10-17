@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     const footerStyle = {
         width: "100%",
-        backgroundColor: "#007bff",
         color: "white",
         textAlign: "center",
         padding: "10px 0",
@@ -18,11 +18,13 @@ const Footer = () => {
     }, []);
 
     return (
-        <footer style={footerStyle}>
-            Réseaux: <br />
-            <br />
-            <a href="https://github.com/florianpoteau?tab=repositories" className='text-white'>Mon github</a> <br />
-            <a href="https://www.linkedin.com/in/florian-poteau-63a9a71a1/" className='text-white'>Mon linkedin</a>
+        <footer style={footerStyle} className='d-flex flex-row bg-secondary bg-gradient'>
+            <a href="https://github.com/florianpoteau?tab=repositories" className='text-white' style={{ width: "50%" }}>
+                <FaGithub size={30} /> Mon github
+            </a>
+            <a href="https://www.linkedin.com/in/florian-poteau-63a9a71a1/" className='text-white' style={{ width: '50%' }}>
+                <FaLinkedin size={30} /> Mon linkedin
+            </a>
         </footer>
     );
 };
