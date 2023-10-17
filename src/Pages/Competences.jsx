@@ -27,7 +27,7 @@ const Competences = () => {
         <>
             <div>
                 <div className="container mt-5">
-                    <div className="d-md-flex">
+                    <div className="d-lg-flex">
                         <div className="col">
                             <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <a
