@@ -14,7 +14,7 @@ const QuiSuisJe = () => {
     <div className='d-flex flex-column'>
     <div style={{position: 'relative'}}>
         <div className="container mt-5">
-        <div className="d-md-flex">
+        <div className="d-lg-flex">
                 <div className="col">
                     <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a
@@ -61,12 +61,12 @@ const QuiSuisJe = () => {
                         <div className={`tab-pane fade ${activeTab === 'profil' ? 'show active' : ''}`} id="v-pills-profil" role="tabpanel" aria-labelledby="v-pills-profil-tab">
                             {/* Contenu de Mon profil */}
                             <div className="row sm-col mt-4 mb-4">
-                                <div className="col-md-6  text-center">
+                                <div className="col-lg-6  text-center">
                                     <h2 className='mb-4'>Mon Profil</h2>
                                     <p>Bonjour, je m'appelle Florian Poteau, j'ai 22 ans et j'habite dans les environs de Valenciennes.</p>
                                     <p>Développeur web depuis un peu plus d'un an, je suis des formations et je me forme en autodidacte dans le développement d'application web et web mobile, j'aimerai en faire mon métier, et je suis toujours disponible pour un éventuel entretien, n'hésitez pas à me contacter sur mon adresse mail <em><u><a href="mailto:florianpoteau59@gmail.com">florianpoteau59@gmail.com</a></u></em></p>
                                 </div>
-                                <div className="col-md-6 text-center">
+                                <div className="col-lg-6 text-center">
     <img src={monImage} alt="Mon profil" className="img-fluid rounded mx-auto" style={{ width: '50%' }} />
 </div>
 
