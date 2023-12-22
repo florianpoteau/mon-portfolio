@@ -19,7 +19,7 @@ const Footer = () => {
 
     return (
         <footer style={footerStyle} className='d-flex flex-row bg-secondary bg-gradient'>
-            <a href="https://github.com/florianpoteau?tab=repositories" className='text-white' style={{ width: "50%" }}>
+            <a href="https://github.com/florianpoteau" className='text-white' style={{ width: "50%" }}>
                 <FaGithub size={30} /> Mon github
             </a>
             <a href="https://www.linkedin.com/in/florian-poteau-63a9a71a1/" className='text-white' style={{ width: '50%' }}>

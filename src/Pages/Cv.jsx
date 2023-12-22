@@ -1,5 +1,5 @@
 import React from 'react';
-import cv from '../assets/cv.png';
+import cv from '../assets/cv1.png';
 import Footer from '../Components/Footer/Footer';
 import { Button } from 'react-bootstrap';
 
