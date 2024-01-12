@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import monImage from '../assets/profil.png';
+import monImage from '../assets/profil.jpg';
 import CarouselProjet from '../Components/Carousels/CarouselProjet';
 import Footer from '../Components/Footer/Footer';
 
